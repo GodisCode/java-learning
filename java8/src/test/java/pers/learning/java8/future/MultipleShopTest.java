@@ -4,8 +4,7 @@ import org.junit.Test;
 import pers.learning.java8.util.TimeUtils;
 
 /**
- * @author zhengxiaohui
- * @email zhengxiaohui@shenzhijie.com
+ * @author Huy
  * @date 2018/11/21 14:32
  */
 public class MultipleShopTest {

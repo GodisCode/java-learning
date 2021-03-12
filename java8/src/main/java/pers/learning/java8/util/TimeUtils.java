@@ -1,8 +1,7 @@
 package pers.learning.java8.util;
 
 /**
- * @author zhengxiaohui
- * @email zhengxiaohui@shenzhijie.com
+ * @author Huy
  * @date 2018/11/21 11:05
  */
 public class TimeUtils {
@@ -16,7 +15,7 @@ public class TimeUtils {
     /**
      * 延时seconds秒
      */
-    public static void delay(long seconds) {
+    public static void delay(int seconds) {
         try {
             Thread.sleep(seconds * 1000L);
         } catch (InterruptedException e) {
@@ -26,7 +25,7 @@ public class TimeUtils {
 
     /**
      * 计算耗时
-     * @param runnable
+     * @param runnable  需要计算耗时的方法
      */
     public static void consume(Runnable runnable) {
         long start = System.nanoTime();

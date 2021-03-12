@@ -9,8 +9,13 @@ import java.util.concurrent.ThreadFactory;
 import java.util.stream.Collectors;
 
 /**
- * @author zhengxiaohui
- * @email zhengxiaohui@shenzhijie.com
+ * 多个任务的处理比较。
+ * (1) 同步处理
+ * (2) 并行流处理
+ * (3) CompletableFuture并发处理
+ * (4) CompletableFuture自定义线程池并发处理
+ *
+ * @author Huy
  * @date 2018/11/21 13:49
  */
 public class MultipleShop {

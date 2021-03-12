@@ -8,8 +8,7 @@ import java.util.concurrent.Future;
 import static org.junit.Assert.*;
 
 /**
- * @author zhengxiaohui
- * @email zhengxiaohui@shenzhijie.com
+ * @author Huy
  * @date 2018/11/21 11:16
  */
 public class ShopTest {

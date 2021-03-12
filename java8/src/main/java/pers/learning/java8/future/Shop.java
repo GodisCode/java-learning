@@ -6,8 +6,9 @@ import java.util.Random;
 import java.util.concurrent.*;
 
 /**
- * @author zhengxiaohui
- * @email zhengxiaohui@shenzhijie.com
+ * 利用CompletableFuture创建并发任务
+ *
+ * @author Huy
  * @date 2018/11/21 11:06
  */
 public class Shop {
